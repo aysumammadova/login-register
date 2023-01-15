@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Hesab məlumatları</h1>
+        </div>
+        <div class="about-page">
+            <div class="left-side">
+                <div class="left-side-container">
+                    <form action="" id="left-side">
+                        <div class="name">
+                            <span>Ad</span>
+                            <input type="text" placeholder="name" name="name">
+                            <small class="namemsg hidden" style="color: darkred;">Adinizi daxil edin</small>
+                        </div>
+                        <div class="surname">
+                            <span>Soyad</span>
+                            <input type="text" placeholder="surname" name="surname">
+                            <small class="surnamemsg hidden" style="color: darkred;">Soyadinizi daxil edin</small>
+                        </div>
+                        <div class="email">
+                            <input type="mail" placeholder="Email" name="mail">
+                            <small class="mailmsg hidden" style="color: darkred;">Mail unvaninizi daxil edin</small>
+                        </div>
+                        <div class="phone">
+                            <span>Telefon nomresi</span>
+                            <input type="mail" placeholder="+994 (XX) XXX-XX-XX" name="phone">
+                            <small class="phonemsg hidden" style="color: darkred;">Nomrenizi daxil edin</small>
+                        </div>
+                        <div class="date">
+                            <span>Dogum tarixi</span>
+                            <input type="text" placeholder="__/__/___" name="date">
+                            <small class="datemsg hidden" style="color: darkred;">Dogum tarixinizi daxil edin</small>
+                        </div>
+                        <div class="sex">
+                            <span>Cins</span>
+                            <div class="man">
+                                <input type="radio"> Man
+                            </div>
+                            <div class="woman">
+                                <input  type="radio"> Woman
+                            </div>
+                        </div>
+                        <div class="button">
+                            <button>Hesab melumatlarinizi yenileyin</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="center-side"></div>
+            <div class="right-side">
+                <div class="right-side-container">
+                    <form action="" id="right-side">
+                        <h3>Şifrəni yeniləyin</h3>
+                        <div class="password">
+                            <span>Kohne parol</span>
+                            <input type="password" class="oldpswrd" name="old"> 
+                            <small class="oldpsw hidden">parolun dogrulugundan emin olun</small>
+                        </div>
+                        <div class="newpassword">
+                            <span>Yeni sifre</span>
+                            <input type="password" name="password" class="newps"> 
+                            <small class="newpsw hidden">Please enter a new password</small>
+                        </div>
+                        <div class="newrepassword">
+                            <span>Yeni sifrenin tesdiqi</span>
+                            <input type="password" name="password" class="renew"> 
+                            <small class="renewpsw hidden">Your new password cannot be same as old password</small>
+                        </div>
+                        <div class="button">
+                            <button>Şifrəni yeniləyin </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
